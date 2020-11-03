@@ -242,6 +242,40 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Back_Promote_Test__c</fullName>
+        <externalId>false</externalId>
+        <label>Back Promote Test</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>red</fullName>
+                    <default>false</default>
+                    <label>red</label>
+                </value>
+                <value>
+                    <fullName>blue</fullName>
+                    <default>false</default>
+                    <label>blue</label>
+                </value>
+                <value>
+                    <fullName>green</fullName>
+                    <default>false</default>
+                    <label>green</label>
+                </value>
+                <value>
+                    <fullName>yellow</fullName>
+                    <default>false</default>
+                    <label>yellow</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>BillingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
