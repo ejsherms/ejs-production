@@ -15,8 +15,9 @@
         <layout>Contact-Contact Layout</layout>
     </layoutAssignments>
     <loginIpRanges>
-        <endAddress>13.111.255.255</endAddress>
-        <startAddress>13.108.0.0</startAddress>
+        <description>undefined</description>
+        <endAddress>66.231.95.255</endAddress>
+        <startAddress>66.231.80.0</startAddress>
     </loginIpRanges>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
