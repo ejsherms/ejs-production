@@ -243,11 +243,12 @@
     </fields>
     <fields>
         <fullName>Back_Promote_Test__c</fullName>
+        <description>This is a description added after back promoted to Dev2.</description>
         <externalId>false</externalId>
         <label>Back Promote Test</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
+        <type>MultiselectPicklist</type>
         <valueSet>
             <restricted>true</restricted>
             <valueSetDefinition>
@@ -274,6 +275,7 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
+        <visibleLines>4</visibleLines>
     </fields>
     <fields>
         <fullName>BillingAddress</fullName>
