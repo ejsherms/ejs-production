@@ -153,13 +153,23 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Standard_Commit__c</fullName>
+        <externalId>false</externalId>
+        <label>Standard Commit</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <label>Test</label>
     <nameField>
         <label>Test Name</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>Tests</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
