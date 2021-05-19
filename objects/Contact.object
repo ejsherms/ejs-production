@@ -354,6 +354,40 @@ CASE( Dreamforce__c,
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Back_Promote_Test_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Back Promote Test 2</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>fish</fullName>
+                    <default>false</default>
+                    <label>fish</label>
+                </value>
+                <value>
+                    <fullName>cat</fullName>
+                    <default>false</default>
+                    <label>cat</label>
+                </value>
+                <value>
+                    <fullName>dog</fullName>
+                    <default>false</default>
+                    <label>dog</label>
+                </value>
+                <value>
+                    <fullName>bird</fullName>
+                    <default>false</default>
+                    <label>bird</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Birthdate</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -395,6 +429,17 @@ CASE( Dreamforce__c,
     <fields>
         <fullName>Email</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>External_Id__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <externalId>true</externalId>
+        <label>External_Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>true</unique>
     </fields>
     <fields>
         <fullName>Fax</fullName>
